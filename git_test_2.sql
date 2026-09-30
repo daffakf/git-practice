@@ -4,4 +4,6 @@ SELECT
 FROM 
     job_postings_fact
 WHERE
-    salary_year_avg IS NOT NULL;
+    salary_year_avg IS NOT NULL
+ORDER BY 
+    salary_year_avg DESC;
